@@ -1,0 +1,57 @@
+.textHeader {
+    color: white !important;
+    text-decoration: none;
+    float: right;
+    text-align: right;    
+    font-size: 15px;
+    padding: 15px;
+  }
+
+.navLinksText{
+    display: flex;
+    align-items: center;
+
+}
+
+.logoHeader{
+    justify-content: center;
+    max-width: 175px;
+    max-height: 175px;
+    padding: 15px;
+
+}
+
+.iconSocialMedias{
+    justify-content: center;
+    display: flex;
+    max-width: 55px;
+    max-height: 55px;
+    padding: 15px;
+    
+}
+
+.logoFooter{
+    justify-content: center;
+    max-width: 95px;
+    max-height: 95px;
+    padding: 15px;
+}
+
+.HeaderFooterBackgroud{
+    background-color: #13293D;
+    opacity: 75%;
+
+}
+
+.textFooter{
+    color: white;
+    vertical-align: center !important;
+    text-decoration: none;
+
+}
+
+
+    
+
+
+  
