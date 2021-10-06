@@ -1,57 +1,64 @@
 .textHeader {
-    color: white !important;
-    text-decoration: none;
-    float: right;
-    text-align: right;    
-    font-size: 15px;
-    padding: 15px;
-  }
-
-.navLinksText{
-    display: flex;
-    align-items: center;
-
+  color: white !important;
+  text-decoration: none;
+  float: right;
+  text-align: right;
+  font-size: 15px;
+  padding: 15px;
 }
 
-.logoHeader{
+.navLinksText {
+  display: flex;
+  align-items: center;
+}
+
+.logoHeader {
+  justify-content: center;
+  max-width: 175px;
+  max-height: 175px;
+  padding: 15px;
+}
+
+.iconSocialMedias {
+  justify-content: center;
+  display: flex;
+  max-width: 55px;
+  max-height: 55px;
+  padding: 15px;
+}
+
+.logoFooter {
+  justify-content: center;
+  max-width: 95px;
+  max-height: 95px;
+  padding: 15px;
+}
+
+.HeaderFooterBackgroud {
+  background-color: #13293d;
+  opacity: 75%;
+}
+
+.textFooter {
+  color: white;
+  vertical-align: center !important;
+  text-decoration: none;
+}
+
+.iconIndexPage {
+  justify-content: center;
+  vertical-align: center !important;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.imgBigIndex {
+    width: 1850px;
+    height: auto;
     justify-content: center;
-    max-width: 175px;
-    max-height: 175px;
-    padding: 15px;
-
+    padding-left: 100px;
+    padding-right: 50px
 }
-
-.iconSocialMedias{
-    justify-content: center;
-    display: flex;
-    max-width: 55px;
-    max-height: 55px;
-    padding: 15px;
-    
-}
-
-.logoFooter{
-    justify-content: center;
-    max-width: 95px;
-    max-height: 95px;
-    padding: 15px;
-}
-
-.HeaderFooterBackgroud{
-    background-color: #13293D;
-    opacity: 75%;
-
-}
-
-.textFooter{
-    color: white;
-    vertical-align: center !important;
-    text-decoration: none;
-
-}
-
-
-    
-
-
-  
