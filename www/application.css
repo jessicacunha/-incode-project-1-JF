@@ -56,69 +56,85 @@
 }
 
 .imgBigIndex {
-    width: 1850px;
-    height: auto;
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 50px
+  width: 1850px;
+  height: auto;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 
-.textOneIndex{
-    text-align: center;
-    font-size: 35px;
-    color: #5c5b5b;
-    font-weight: bold;
+.textOneIndex {
+  text-align: center;
+  font-size: 35px;
+  color: #5c5b5b;
+  font-weight: bold;
 }
 
-.textPadding{
-    padding: 50px;
-    padding-top: 70px;
+.textPadding {
+  padding: 50px;
+  padding-top: 70px;
 }
 
-.cardBackground{
-    background-color: #13293d !important;
-    opacity: 35%;
-    color: white;
-    align-items: center;
-    text-align: center;
-    height: 400px;
-    padding-top: 60px;
+.cardBackground {
+  background-color: #13293d !important;
+  opacity: 35%;
+  color: white;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  padding-top: 60px;
 }
 
-.cardImg{
-    max-width: 120px;
-    max-height: 120px;
-    align-items: center !important;
+.cardImg {
+  max-width: 120px;
+  max-height: 120px;
+  align-items: center !important;
 }
 
-.cardGroup{
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding: 50px;
+.cardGroup {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 50px;
 }
 
-.badgeIndex{
+.badgeIndex {
   background-color: #13293d;
   opacity: 75%;
   display: inline-flex;
-  padding: 20px;
+  padding: 10px;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   padding-left: 60px;
   padding-right: 40px;
   justify-content: center;
-
 }
 
-.badgeText{
+.badgeText {
   font-size: 25px;
   color: white;
   text-align: center;
   padding: 15px;
   justify-content: center;
+}
+
+.imgOpenText {
+  text-align: left;
+  padding-top: 65px;
+  color: #5c5b5b;
+}
+
+.imgOpen {
+  max-width: 120px;
+  height: auto;
+}
+
+.textWeek{
+  text-align: center;
+  padding-top: 45px;
+  color: #5c5b5b;
 }
