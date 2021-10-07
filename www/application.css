@@ -34,9 +34,13 @@
   padding: 15px;
 }
 
-.HeaderFooterBackgroud {
+.HeaderFooterBackground {
   background-color: #13293d;
   opacity: 75%;
+}
+
+.space-between-sections{
+  margin-top: 5%;
 }
 
 .textFooter {
@@ -46,21 +50,34 @@
 }
 
 .iconIndexPage {
-  justify-content: center;
-  vertical-align: center !important;
   max-width: 300px;
   max-height: 300px;
   padding: 15px;
+}
+
+.icon-alignment-center {
+  justify-content: center;
+  vertical-align: center !important;
   display: flex;
   align-items: center;
 }
 
+.icon-alignment-right {
+  justify-content: right;
+  vertical-align: center !important;
+  display: flex;
+  align-items: right;
+}
+
+.icon-alignment-left {
+  justify-content: left;
+  vertical-align: center !important;
+  display: flex;
+  align-items: left;
+}
+
 .imgBigIndex {
-  width: 1850px;
-  height: auto;
-  justify-content: center;
-  padding-left: 100px;
-  padding-right: 50px;
+  padding: 2%;
 }
 
 .textOneIndex {
@@ -124,12 +141,16 @@
 
 .imgOpenText {
   text-align: left;
-  padding-top: 65px;
+  /* padding-top: 65px; */
   color: #5c5b5b;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
 }
 
 .imgOpen {
-  max-width: 120px;
+  width: 80%;
   height: auto;
 }
 
@@ -145,8 +166,7 @@
 }
 
 .imgAbout {
-  width: 600px;
-  height: 700px;
+  width: 100%;
 }
 
 .textOneContact {
@@ -156,17 +176,12 @@
 }
 
 .detailsContact {
-  padding-left: 400px;
   color: #5c5b5b;
 }
 
 .imgMapContact {
   display: flex;
-  margin-left: 400px;
   margin-right: auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
-  height: 750px;
   flex-wrap: nowrap;
   align-content: center;
 }
