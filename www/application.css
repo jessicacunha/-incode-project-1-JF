@@ -133,18 +133,40 @@
   height: auto;
 }
 
-.textWeek{
+.textWeek {
   text-align: center;
   padding-top: 45px;
   color: #5c5b5b;
 }
 
-.textAbout{
+.textAbout {
   text-align: left;
   color: #5c5b5b;
 }
 
-.imgAbout{
+.imgAbout {
   width: 600px;
   height: 700px;
+}
+
+.textOneContact {
+  text-align: center;
+  font-size: 35px;
+  color: #5c5b5b;
+}
+
+.detailsContact {
+  padding-left: 400px;
+  color: #5c5b5b;
+}
+
+.imgMapContact {
+  display: flex;
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  height: 750px;
+  flex-wrap: nowrap;
+  align-content: center;
 }
