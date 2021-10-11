@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <script src="form.js"></script>
 
   <title>Contact</title>
 </head>
@@ -41,49 +40,59 @@
 
     <p class="textOneContact">Tell us everything!</p>
 
-    <form>
+    <div id="error_message"></div>
+
+    <form action="" id="form" name="form1" onsubmit= "event.preventDefault(), cFunction();" >
       <div class="form-group">
         <label class="label-input-contact" for="InputSurname">Surname*</label>
-        <input type="text" class="input-contact-form form-control" id="InputSurname" aria-describedby="emailHelp" />
+        <input type="text" class="input-contact-form form-control" id="InputSurname" aria-describedby="emailHelp"
+          />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputFirstName">First name*</label>
-        <input type="text" class="input-contact-form form-control" id="InputFirstName" />
+        <input type="text" class="input-contact-form form-control" id="InputFirstName"  />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputEmail">E-mail*</label>
-        <input type="email" class="input-contact-form form-control" id="InputEmail" />
+        <input type="text" class="input-contact-form form-control" id="InputEmail"  />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputMobile">Mobile phone</label>
-        <input type="number" class="input-contact-form form-control" id="InputMobile" />
+        <input type="text" class="input-contact-form form-control" id="InputMobile" />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputMessage">Message*</label>
         <textarea class="input-contact-form form-control" id="InputMessage" placeholder="Type your message here
-          " rows="3"></textarea>
+          " rows="3" ></textarea>
       </div>
-      <button type="submit" class="btn-lg button-send-contact">SEND</button>
+      <div class="icon-alignment-center space-between-sections">
+        <button  class="btn-lg button-send-contact">
+          SEND
+        </button>
+      </div>
     </form>
 
-    <div class="space-between-sections"></div>
+    
+    <div id="contact-details">
+      <div class="space-between-sections"></div>
 
-    <p class="textOneContact">We are waiting for you!</p>
+      <p class="textOneContact">We are waiting for you!</p>
 
-    <div class="space-between-sections"></div>
+      <div class="space-between-sections"></div>
 
-    <div class="detailsContact">
-      <h3><strong>Mr.Coffee</strong></h3>
-      <h3>
-        15 place Jules Guedes <br />
-        75006 Paris
-      </h3>
-      <br /><br />
-      <h3>Tel : +33 9 46 25 78 45</h3>
-      <h3>Mail: contact@mr-coffee.com</h3>
+      <div class="detailsContact">
+        <h3><strong>Mr.Coffee</strong></h3>
+        <h3>
+          15 place Jules Guedes <br />
+          75006 Paris
+        </h3>
+        <br /><br />
+        <h3>Tel : +33 9 46 25 78 45</h3>
+        <h3>Mail: contact@mr-coffee.com</h3>
+      </div>
+      <div class="space-between-sections"></div>
+      <img class="imgMapContact col-md-12" src="./Assets/carte_contact.png" />
     </div>
-    <div class="space-between-sections"></div>
-    <img class="imgMapContact col-md-12" src="./Assets/carte_contact.png" />
   </div>
 
   <footer class="space-between-sections">
@@ -117,6 +126,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./form.js"></script>
 </body>
 
 </html>

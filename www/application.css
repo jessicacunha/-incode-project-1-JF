@@ -39,7 +39,7 @@
   opacity: 75%;
 }
 
-.space-between-sections{
+.space-between-sections {
   margin-top: 5%;
 }
 
@@ -172,7 +172,6 @@
   text-align: center;
   font-size: 35px;
   color: #5c5b5b;
-  
 }
 
 .detailsContact {
@@ -186,29 +185,54 @@
   align-content: center;
 }
 
-.input-contact-form{
+.input-contact-form {
   background-color: #13293d !important;
   opacity: 25% !important;
   border: none !important;
   color: white !important;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 55px;
-
 }
 
-.label-input-contact{
+.label-input-contact {
   text-align: left;
   color: #5c5b5b;
-  font-size: 30px;
-
+  font-size: 25px;
 }
 
-.button-send-contact{
+.button-send-contact {
   align-content: center;
-  background-color:#13293d ;
+  background-color: #13293d;
   color: white;
   justify-content: center;
   font-size: 30px;
+  padding: 0.7rem 5rem !important;
+  font-size: 1.25rem !important;
+}
 
+.Modal-img {
+  width: 20px;
+  height: auto;
+}
+
+.Mymodal {
+  background-color: rgba(112, 122, 138, 0.2);
+  position: absolute;
+  top: 0;
+  height: 1800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal_contents {
+  background-color: white;
+  margin: 2rem 4rem;
+  padding: 2rem 4rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #707a8a
 
 }
