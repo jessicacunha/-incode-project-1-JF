@@ -40,21 +40,19 @@
 
     <p class="textOneContact">Tell us everything!</p>
 
-    <div id="error_message"></div>
 
-    <form action="" id="form" name="form1" onsubmit= "event.preventDefault(), cFunction();" >
+    <form action="">
       <div class="form-group">
         <label class="label-input-contact" for="InputSurname">Surname*</label>
-        <input type="text" class="input-contact-form form-control" id="InputSurname" aria-describedby="emailHelp"
-          />
+        <input type="text" class="input-contact-form form-control" id="InputSurname" aria-describedby="emailHelp" />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputFirstName">First name*</label>
-        <input type="text" class="input-contact-form form-control" id="InputFirstName"  />
+        <input type="text" class="input-contact-form form-control" id="InputFirstName" />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputEmail">E-mail*</label>
-        <input type="text" class="input-contact-form form-control" id="InputEmail"  />
+        <input type="text" class="input-contact-form form-control" id="InputEmail" />
       </div>
       <div class="form-group">
         <label class="label-input-contact" for="InputMobile">Mobile phone</label>
@@ -63,16 +61,36 @@
       <div class="form-group">
         <label class="label-input-contact" for="InputMessage">Message*</label>
         <textarea class="input-contact-form form-control" id="InputMessage" placeholder="Type your message here
-          " rows="3" ></textarea>
+          " rows="3"></textarea>
       </div>
       <div class="icon-alignment-center space-between-sections">
-        <button  class="btn-lg button-send-contact">
+        <button id="send-btn" class="btn-lg button-send-contact">
           SEND
         </button>
       </div>
     </form>
 
-    
+    <div class="modal-contact" id="modal">
+      <div class="modal-contents">
+        <div class="row">         
+            <img class="img-modal-contact" src="./Assets/logo_dark.png">         
+            <h1 class="modal-textOne space-between-sections">Thank you <br> Your message has been sent!</h1>
+          </div>
+        <div class="space-between-sections">
+          <h3>We will try to answer them as well as possible as soon as possible.
+            time limit. See you soon at Mr. Coffee</h3>
+        </div>
+
+
+        <div class="icon-alignment-center space-between-sections">
+          <button id="close-btn" class="button-modal">
+            CLOSE
+          </button>
+        </div>
+      </div>
+    </div>
+
+
     <div id="contact-details">
       <div class="space-between-sections"></div>
 
