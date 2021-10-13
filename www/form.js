@@ -8,12 +8,11 @@ var sendButton = document.getElementById("send-btn");
 var closeButton = document.getElementById("close-btn");
 
 sendButton.onclick = function(event) { 
-    event.preventDefault()
-    typeof firstName.value == 'string' ? console.log("Name: " + firstName.value) : NaN
-    typeof surname.value == 'string' ? console.log("Surname: " + surname.value) : NaN
-    email.value.includes('@') == true ? console.log("E-mail: " + email.value) : NaN
-    typeof phone.value == 'number' ? console.log("Phone: " + phone.value) : NaN
-    typeof message.value == 'string' ? console.log("Message: " + message.value) : NaN
+    typeof firstName.value == 'string' ? console.log("Name: " + firstName.value) : NaN ;    event.preventDefault()
+    typeof surname.value == 'string' ? console.log("Surname: " + surname.value) : NaN;    event.preventDefault()
+    email.value.includes('@') == true ? console.log("E-mail: " + email.value) : NaN;    event.preventDefault()
+    typeof phone.value == 'number' ? console.log("Phone: " + phone.value) : NaN;    event.preventDefault()
+    typeof message.value == 'string' ? console.log("Message: " + message.value) : NaN;    event.preventDefault()
     modal.style.display = "flex";
 }
 
